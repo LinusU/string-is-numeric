@@ -2,5 +2,12 @@
   "name": "string-is-numeric",
   "version": "0.0.0",
   "license": "MIT",
-  "repository": "LinusU/string-is-numeric"
+  "repository": "LinusU/string-is-numeric",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "standard": "^10.0.2"
+  }
 }
